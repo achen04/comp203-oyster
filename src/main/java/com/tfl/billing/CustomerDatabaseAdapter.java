@@ -22,12 +22,10 @@ public class CustomerDatabaseAdapter implements CustomerDatabaseInterface {
         return true; // always adding to list
     }
 
-    //uses instance of CustomerDatabase to implement methods.
+    // uses instance of CustomerDatabase to implement methods.
     public boolean isRegisteredId(UUID cardId) {
         return db.isRegisteredId(cardId);
     }
-
-
 }
 
 
